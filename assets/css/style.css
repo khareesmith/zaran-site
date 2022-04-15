@@ -179,8 +179,8 @@ body {
     display: flex;
     list-style: none;
     align-items: center;
-  }
-  .navbar li {
+  } */
+  /* .navbar li {
     position: relative;
   }
   .navbar > ul > li {
@@ -204,20 +204,19 @@ body {
     font-size: 12px;
     line-height: 0;
     margin-left: 5px;
-  }
-  .navbar > ul > li > a:before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    bottom: -2px;
-    left: 0;
+  } */
+
+  .dropdown-menu li .active{
     background-color: darkturquoise;
-    visibility: hidden;
-    width: 0px;
-    transition: all 0.3s ease-in-out 0s;
   }
-  .navbar a:hover:before, .navbar li:hover > a:before, .navbar .active:before {
+
+  .dropdown-menu li :hover {
+    
+    background-color: darkturquoise;
+    color: white;
+  }
+
+  /** .navbar a:hover:before, .navbar li:hover > a:before, .navbar .active:before {
     visibility: visible;
     width: 100%;
   }
@@ -265,12 +264,7 @@ body {
     left: calc(100% - 30px);
     visibility: hidden;
   }
-  .navbar .dropdown .dropdown:hover > ul {
-    opacity: 1;
-    top: 0;
-    left: 100%;
-    visibility: visible;
-  }
+  
   @media (max-width: 1366px) {
     .navbar .dropdown .dropdown ul {
       left: -90%;
@@ -819,8 +813,8 @@ body {
   .portfolio .portfolio-item .portfolio-info {
     opacity: 0;
     position: absolute;
-    left: 15px;
-    right: 15px;
+    left: 9px;
+    right: 9px;
     bottom: -50px;
     z-index: 3;
     transition: all ease-in-out 0.3s;
@@ -1240,12 +1234,12 @@ body {
     padding: 15px 0;
     background: #f9f9f9;
     min-height: 40px;
-    margin-top: 72px;
+    /* margin-top: 72px; */
   }
   @media (max-width: 992px) {
-    .breadcrumbs {
+    /* .breadcrumbs {
       margin-top: 63px;
-    }
+    } */
   }
   .breadcrumbs h2 {
     font-size: 26px;

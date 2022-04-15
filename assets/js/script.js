@@ -1,7 +1,7 @@
 (function() {
   "use strict";
 
-  document.getElementById("myVideo").load()
+  // document.getElementById("myVideo").load()
 
   /**
    * Easy selector helper function
@@ -118,12 +118,12 @@
   /**
    * Mobile nav dropdowns activate
    */
-  on('click', '.navbar .dropdown > a', function(e) {
-    if (select('#navbar').classList.contains('navbar-mobile')) {
-      e.preventDefault()
-      this.nextElementSibling.classList.toggle('dropdown-active')
-    }
-  }, true)
+  // on('click', '.navbar .dropdown > a', function(e) {
+  //   if (select('#navbar').classList.contains('navbar-mobile')) {
+  //     e.preventDefault()
+  //     this.nextElementSibling.classList.toggle('dropdown-active')
+  //   }
+  // }, true)
 
   /**
    * Scrool with ofset on links with a class name .scrollto
@@ -167,10 +167,11 @@
   /**
    * Initiate glightbox 
    */
-  const glightbox = glightbox({
+  const glightbox = GLightbox({
     selector: '.glightbox'
   });
 
+  // const myGLightbox = glightbox({})
   /**
    * Porfolio isotope and filter
    */
