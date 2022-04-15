@@ -1,8 +1,6 @@
 (function() {
   "use strict";
 
-  // document.getElementById("myVideo").load()
-
   /**
    * Easy selector helper function
    */
